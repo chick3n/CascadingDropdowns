@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<FieldTypes>
+  <FieldType>
+    <Field Name="TypeName">CascadingDropdownsFieldType</Field>
+    <Field Name="ParentType">Lookup</Field>
+    <Field Name="TypeDisplayName">Cascading Dropdown</Field>
+    <Field Name="TypeShortDescription">Cascading Dropdown</Field>
+    <Field Name="UserCreatable">TRUE</Field>
+    <Field Name="Sortable">TRUE</Field>
+    <Field Name="Filterable">TRUE</Field>
+    <Field Name="ShowInSurveyCreate">TRUE</Field>
+    <Field Name="ShowInDocumentLibraryCreate">TRUE</Field>
+    <Field Name="ShowInColumnTemplateCreate">TRUE</Field>
+    <Field Name="FieldTypeClass">
+      FlyingHippo.CascadingDropdowns.Fields.CascadeDropdownFieldType,
+      $SharePoint.Project.AssemblyFullName$
+    </Field>
+    <Field Name="FieldEditorUserControl">/_controltemplates/FlyingHippo/Fields/CascadingDropdownFieldEditor.ascx</Field>
+    <Field Name="AllowBaseTypeRendering">FALSE</Field>
+    <Field Name="CAMLRendering">FALSE</Field>
+    <PropertySchema>
+      <Fields>
+        <Field Hidden="TRUE" Name="CascadeType" DisplayName="CascadeType" Type="Text"></Field>
+        <Field Hidden="TRUE" Name="CascadeList" DisplayName="CascadeList" Type="Text"></Field>
+        <Field Hidden="TRUE" Name="CascadeParent" DisplayName="CascadeParent" Type="Text"></Field>
+        <Field Hidden="TRUE" Name="CascadeDisplayField" DisplayName="CascadeDisplayField" Type="Text"></Field>
+        <Field Hidden="TRUE" Name="CascadeCompareField" DisplayName="CascadeCompareField" Type="Text"></Field>
+      </Fields>
+    </PropertySchema>
+  </FieldType>
+</FieldTypes>
+
